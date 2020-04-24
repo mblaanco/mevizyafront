@@ -1,8 +1,11 @@
-
-FROM node:latest
 # MAINTAINER Murilo Blanco Flor <muriloblan@gmail.com>
+FROM node:latest
 
+# set working directory
 WORKDIR /app
+
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
 #RUN git clone https://github.com/vishnubob/wait-for-it.git
 
