@@ -12,7 +12,7 @@ export default function user(state = INITIAL_STATE, action) {
         break;
       }
       case '@user/UPDATE_PROFILE_REQUEST': {
-        draft.profile = action.payload.profile;
+        draft.profile = action.payload.data;
         break;
       }
       case '@auth/SIGN_OUT': {

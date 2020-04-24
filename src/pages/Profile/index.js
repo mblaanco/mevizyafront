@@ -34,12 +34,12 @@ export default function Profile() {
         />
         <Input
           type="password"
-          name="newpassword"
+          name="password"
           placeholder="Sua nova senha"
         />
         <Input
           type="password"
-          name="ConfirmPassword"
+          name="confirmPassword"
           placeholder="Confirmação de senha"
         />
 
