@@ -30,11 +30,11 @@ export const Container = styled.div`
     }
   }
   ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 15px;
-      margin-top: 30px;
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin-top: 30px;
+  }
 `;
 
 export const List = styled.li`
@@ -47,13 +47,11 @@ export const List = styled.li`
     color: #7159c1;
     font-size: 20px;
     font-weight: normal;
-
   }
 
   span {
     display: block;
-    margin-top:3px;
-    color:#666;
-
+    margin-top: 3px;
+    color: #666;
   }
 `;

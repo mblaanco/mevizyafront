@@ -32,11 +32,7 @@ export default function Profile() {
           name="oldPassword"
           placeholder="Sua senha atual"
         />
-        <Input
-          type="password"
-          name="password"
-          placeholder="Sua nova senha"
-        />
+        <Input type="password" name="password" placeholder="Sua nova senha" />
         <Input
           type="password"
           name="confirmPassword"
